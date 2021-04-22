@@ -36,7 +36,7 @@ namespace SlaveGreylings
             {
                 if (__instance.name.Contains("Greyling"))
                 {
-                    Debug.Log($"A {__instance.name} just spawned!");
+                    //Debug.Log($"A {__instance.name} just spawned!");
                     var uniqueId = ___m_nview.GetZDO().GetString(Constants.Z_CharacterId);
                     if (string.IsNullOrEmpty(uniqueId))
                     {

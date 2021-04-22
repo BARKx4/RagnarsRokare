@@ -19,7 +19,7 @@ namespace SlaveGreylings
         public static void Dbgl(string str = "", bool pref = true)
         {
             if (isDebug)
-                Debug.Log((pref ? typeof(SlaveGreylings).Namespace + " " : "") + str);
+                //Debug.Log((pref ? typeof(SlaveGreylings).Namespace + " " : "") + str);
         }
 
     }

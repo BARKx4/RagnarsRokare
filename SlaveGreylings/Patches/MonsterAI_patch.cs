@@ -65,7 +65,7 @@ namespace SlaveGreylings
                 if (currentAiStatus != newStatus)
                 {
                     string name = nview?.GetZDO()?.GetString(Constants.Z_GivenName);
-                    Debug.Log($"{name}: {newStatus}");
+                    //Debug.Log($"{name}: {newStatus}");
                     nview.GetZDO().Set(Constants.Z_AiStatus, newStatus);
                 }
                 return newStatus;

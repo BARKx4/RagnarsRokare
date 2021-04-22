@@ -17,7 +17,7 @@ namespace SlaveGreylings
                 ___m_rightItem = item;
                 ___m_rightItem.m_equiped = item != null;
                 ___m_visEquipment.SetRightItem(item?.m_dropPrefab?.name);
-                Debug.Log($"Set right item prefab to {item?.m_dropPrefab?.name}");
+                //Debug.Log($"Set right item prefab to {item?.m_dropPrefab?.name}");
                 ___m_visEquipment.GetType().GetMethod("UpdateEquipmentVisuals", BindingFlags.NonPublic | BindingFlags.Instance).Invoke(___m_visEquipment, new object[] { });
                 return false;
             }
